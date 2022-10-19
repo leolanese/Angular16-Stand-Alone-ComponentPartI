@@ -1,4 +1,4 @@
-# Angular14. Testing Stand Alone Components
+# Angular14: Testing Stand Alone Components
 
 > Angular 14 introduces an alternative way to write applications — Standalone components, directives, and pipes.
 
@@ -6,15 +6,16 @@
 
 > With standalone components, directives and pipes, the `standalone: true` flag allows you to add imports directly in your @Component() without an @NgModule().
 
-
-```js
-ng serve -o --poll=2000
-```
-
+---
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+
+```js
+ng serve -o --poll=2000
+```
 
 ## Code scaffolding
 
