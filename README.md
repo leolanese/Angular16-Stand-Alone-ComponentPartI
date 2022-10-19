@@ -8,12 +8,6 @@
 
 
 ```js
-npm init @angular ng14
-```
-
-The next step is to delete app.module.ts and replace the bootstrapModule() function in main.ts with bootstrapApplication():
-
-```js
 ng serve -o --poll=2000
 ```
 
