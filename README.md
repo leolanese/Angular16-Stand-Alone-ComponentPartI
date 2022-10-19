@@ -1,6 +1,18 @@
-# Ng14
+# Angular14. Testing Stand Alone Components
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+
+
+```js
+npm init @angular ng14
+```
+
+The next step is to delete app.module.ts and replace the bootstrapModule() function in main.ts with bootstrapApplication():
+
+```js
+ng serve -o --poll=2000
+```
+
 
 ## Development server
 
