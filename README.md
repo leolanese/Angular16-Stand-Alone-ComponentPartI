@@ -6,6 +6,66 @@
 
 > With standalone components, directives and pipes, the `standalone: true` flag allows you to add imports directly in your @Component() without an @NgModule().
 
+
+
+> Standalone components allow us to create `simpler applications` in a `faster way`
+
+> Simplifying Angular with Standalone Components: Reducing the need for NgModules
+
+
+## Stricly Typed Reactive Forms
+is a long-standing community request that can be dated to the release of Angular
+With Angular 14, the FormGroup, formControl, and related classes include type definitions enabling TypeScript to catch many common errors.
+
+
+```js
+const login = new FormGroup({
+    email: new FormControl(''),
+    password: new FormControl(''),
+});
+
+console.log(login.value.notanemail);
+```
+
+
+## Angular Standalone Components
+A14 It includes 2 (or 3) long-awaited features:
+`Stricly Typed Reactive Forms` and `Standalone Components`, as well as several minor like `new Diagnostics framework`, which provides improved feedback on template errors and best practices.
+
+
+```js
+@Component({
+    selector: 'sample-component',
+    // standalone
+    standalone: true,
+    template: '',
+    // imports
+    imports: [ ComponentOne, ComponentTwo, SampleDirective,
+                SampleService, CommonModule],
+    })
+    export class SampleComponent {
+        ...
+    }
+```
+
+## Extended developer diagnostics
+* Catch the invalid “Banana in a box” error on your two-way data bindings
+* Catch nullish coalescing on non-nullable values
+* Tree-shakeable error messages
+
+## Angular CLI enhancements
+```js
+// eg
+ng completion
+ng analytics
+ng analytics enable
+ng analytics info
+ng cache enable
+ng cache info
+```
+
+## New primitives in the Angular CDK
+
 ---
 
 ## Development server
@@ -34,11 +94,19 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further information
-
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-<<<<<<< HEAD
-=======
-# Angular14-Stand-Alone-Component
 
->>>>>>> e70f5d8b3a4316845cb73292fdc12834a1fc700a
+---
+### :100: <i>Thanks!</i>
+#### Now, don't be an stranger. Let's stay in touch!
+
+> I'm a passionately curious Front-end Engineer. I like sharing what I know, and learning what I don't. London, UK.
+
+##### :radio_button: linkedin: <a href="https://www.linkedin.com/in/leolanese/" target="_blank">@LeoLaneseltd</a>
+##### :radio_button: Twitter: <a href="https://twitter.com/LeoLaneseltd" target="_blank">@LeoLaneseltd</a>
+##### :radio_button: Portfolio: <a href="https://www.leolanese.com" target="_blank">www.leolanese.com</a>
+##### :radio_button: DEV.to: <a href="https://www.dev.to/leolanese" target="_blank">dev.to/leolanese</a>
+##### :radio_button: Blog: <a href="https://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
+##### :radio_button: Questions / Suggestion / Recommendation: developer@leolanese.com
+
 
