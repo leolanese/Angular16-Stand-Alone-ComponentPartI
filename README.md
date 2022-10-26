@@ -1,10 +1,21 @@
-# Angular14-Stand-Alone-Component
+# Angular14: Testing Stand Alone Components
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+> Angular 14 introduces an alternative way to write applications — Standalone components, directives, and pipes.
+
+> The term “standalone” refers to components, directives, or pipes that can be used independently of NgModule.
+
+> With standalone components, directives and pipes, the `standalone: true` flag allows you to add imports directly in your @Component() without an @NgModule().
+
+---
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+
+```js
+ng serve -o --poll=2000
+```
 
 ## Code scaffolding
 
@@ -25,4 +36,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further information
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<<<<<<< HEAD
+=======
+# Angular14-Stand-Alone-Component
+
+>>>>>>> e70f5d8b3a4316845cb73292fdc12834a1fc700a
 
