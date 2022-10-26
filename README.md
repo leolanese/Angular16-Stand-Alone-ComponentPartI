@@ -35,17 +35,16 @@ A14 It includes 2 (or 3) long-awaited features:
 
 ```js
 @Component({
-    selector: 'sample-component',
-    // standalone
+    selector: 'app-sample-component',
+    // standalone component
     standalone: true,
     template: '',
     // imports
-    imports: [ ComponentOne, ComponentTwo, SampleDirective,
-                SampleService, CommonModule],
-    })
-    export class SampleComponent {
-        ...
-    }
+    imports: [ ComponentOne, ComponentTwo, SampleDirective, SampleService, CommonModule ],
+})
+export class SampleComponent {
+    ...
+}
 ```
 
 ## Extended developer diagnostics
@@ -64,7 +63,13 @@ ng cache enable
 ng cache info
 ```
 
-## New primitives in the Angular CDK
+## New Angular CDK
+* CDK Menu 
+* CDK Dialog
+
+## Tree-shakeable error messages
+
+etc.
 
 ---
 
