@@ -1,4 +1,4 @@
-# Angular 14. Part I
+# Angular 14. Testing Stand Alone Components. Part I.
 
 > Angular includes 2 (or 3) long-awaited features: `Stricly Typed Reactive Forms` and `Standalone Components`, as well as several minor like `new Diagnostics framework`, which provides improved feedback on template errors and best practices.
 
@@ -105,9 +105,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further information
-Read: [Angular14: Testing Stand Alone Components. Part II](https://github.com/leolanese/Angular-v14-stand-alone)
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
+Read: [# Angular 14. Testing Stand Alone Components. Part II](https://github.com/leolanese/Angular-v14-stand-alone)
 
 ---
 ### :100: <i>Thanks!</i>
