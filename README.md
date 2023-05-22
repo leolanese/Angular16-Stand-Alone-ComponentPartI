@@ -1,4 +1,4 @@
-# Angular 14. Testing Stand Alone Components. Part I.
+# Using Angular 16 to test Stand Alone Components (Part I)
 
 > Angular includes 2 (or 3) long-awaited features: `Stricly Typed Reactive Forms` and `Standalone Components`, as well as several minor like `new Diagnostics framework`, which provides improved feedback on template errors and best practices.
 
