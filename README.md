@@ -2,22 +2,19 @@
 
 > Angular includes 2 (or 3) long-awaited features: `Stricly Typed Reactive Forms` and `Standalone Components`, as well as several minor like `new Diagnostics framework`, which provides improved feedback on template errors and best practices.
 
-> Standalone components allow us to create `simpler applications` in a `faster way`
-> Simplifying Angular with Standalone Components: Reducing the need for NgModules
-> The built-in Angular directives and pipes offered by CommonModule: NgIf, NgFor, DatePipe, DecimalPipe, AsyncPipe, etc. are now available as standalone! we can import individually
-
-> Angular 14 introduces an alternative way to write applications — Standalone components, directives, and pipes.
-
-> The term “standalone” refers to components, directives, or pipes that can be used independently of NgModule.
+- Standalone components allow us to create `simpler applications` in a `faster way`
+- Simplifying Angular with Standalone Components: Reducing the need for NgModules
+- The built-in Angular directives and pipes offered by CommonModule: NgIf, NgFor, DatePipe, DecimalPipe, AsyncPipe, etc. are now available as standalone! we can import individually
+- Angular 14 introduces an alternative way to write applications: Standalone components, directives, and pipes.
+- The term “standalone” refers to components, directives, or pipes that can be used independently of NgModule.
 
 > With standalone components, directives and pipes, the `standalone: true` flag allows you to add imports directly in your @Component() without an @NgModule().
 
-
-
 > Standalone components allow us to create `simpler applications` in a `faster way`
 
 > Simplifying Angular with Standalone Components: Reducing the need for NgModules
 
+---
 
 ## Stricly Typed Reactive Forms
 is a long-standing community request that can be dated to the release of Angular
